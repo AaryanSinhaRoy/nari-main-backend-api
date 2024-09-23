@@ -15,13 +15,11 @@ app.use('/api/admin', require('./routes/admin'));
 //endpoints to add
 
 // optional image insertion by admin while creating new  feed post
-// add trusted contact list feature
+
 
 app.get('/api', (req, res) => {
   res.json({msg:'Welcome to nari api'});
 });
-
-
 
 
 
